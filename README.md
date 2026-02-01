@@ -39,13 +39,9 @@ This repository documents my learning journey, projects, and experiments as I bu
 
 This section includes hands-on DevOps projects focused on automation, infrastructure, and cloud services.
 
-### 🚀 Current / Planned Projects
-- Terraform projects (AWS infrastructure provisioning)
-- Shell scripting for automation
-- CI/CD pipelines (GitHub Actions / Jenkins)
-- Docker & containerization labs
+### 🚀 Current 
+- Shell scripting - Automate Apache Deployment
 - Linux system administration tasks
-- Monitoring & logging setups
 
 > Each project includes documentation, setup steps, and learnings.
 

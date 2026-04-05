@@ -1,0 +1,31 @@
+# 🚀 My Flask App (Dockerized)
+
+This is a simple Python Flask web application containerized using Docker.
+
+## 📦 Features
+
+* Lightweight Python Flask app
+* Runs on port 5000
+* Beginner-friendly Docker project
+
+## ▶️ How to Run
+
+```bash
+docker run -p 5000:5000 mayankchichulkar/my-flask-app
+```
+
+Then open:
+http://localhost:5000
+
+## 🛠️ Built With
+
+* Python
+* Flask
+* Docker
+
+
+Mayank Chichulkar
+
+---
+
+This is part of my DevOps learning journey 🚀

@@ -1,0 +1,2 @@
+created and run CI/CD pipeline using bitbucket. for node.js application.
+Also made changes in code and run the pipeline successfully to deploy the changes using ubuntu server machine.

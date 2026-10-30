@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Test Page</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .card {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0066cc;
+            margin-top: 0;
+        }
+        button {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover {
+            background-color: #0052a3;
+        }
+        .success-msg {
+            color: #2e7d32;
+            font-weight: bold;
+            margin-top: 15px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1> index.html Success!</h1>
+        <p>If you can see this page formatted nicely, your web server, local path, or hosting configuration is **working properly**.</p>
+        
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+        
+        <h3>Test Environment Controls</h3>
+        <p>Click the button below to verify that embedded JavaScript runs correctly on this environment.</p>
+        
+        <button id="testBtn">Run Test JavaScript</button>
+        <p id="successMessage" class="success-msg">✓ JavaScript execution is working perfectly!</p>
+    </div>
+
+    <script>
+        document.getElementById('testBtn').addEventListener('click', function() {
+            const msg = document.getElementById('successMessage');
+            msg.style.display = msg.style.display === 'block' ? 'none' : 'block';
+        });
+    </script>
+</body>
+</html>
